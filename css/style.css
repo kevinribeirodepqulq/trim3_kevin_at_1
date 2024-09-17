@@ -1,0 +1,134 @@
+/* geral */
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* reset */
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, span {
+	margin: 0;
+	color: ;
+}
+
+.container {
+	max-width: 1920px;
+	width: 100%;
+}
+
+/* header */
+header {
+	position: relative;
+	top: 0;
+	height: auto;
+	width: 100%;
+}
+
+/* navbar */
+nav { 
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	background-color: #000000;
+	border-bottom: 1px solid #DCDCDC;
+ }
+
+ nav:after {
+ 	clear: both;
+ 	content: "";
+ 	display: block;
+ }
+
+ .nav-container {
+ 	max-width: 1200px;
+ 	position: relative;
+ 	margin-right: auto;
+ 	margin-left: auto; 	
+ }
+
+ #logo {
+ 	width: 40px;
+ 	height: 40px;
+ 	margin-top: 25px;
+ }
+
+ .nav-container ul {
+ 	float: right;
+ 	height: 100px;
+ 	line-height: 100px;
+ 	margin: 0;
+ }
+
+ .nav-container li {
+ 	list-style: none;
+ 	float: left;
+ 	margin: 0 30px;
+ }
+
+ .nav-container li a {
+ 	text-decoration: none;
+ 	color:#4F4F4F;
+ 	transition: .7s;
+ }
+
+ .nav-container li a:hover {
+ 	color: #DCDCDC;
+ }
+
+/* banner  */
+ #main-banner {
+ 	background-color: Black;
+ 	background: url('../img/banner6.jpg') no-repeat;
+ 	background-size: cover;
+ 	background-position: 0 65%;
+ 	position: relative;
+ 	margin-top: 100px;
+ }
+
+ #search-form {
+ 	position: relative;
+ 	width: 90%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 17em;
+ 	padding-bottom: 15em;
+ 	text-align: center;
+ }
+
+ #search-form h1 {
+ 	font-size: 60px;
+ }
+
+ #search-form p {
+ 	margin-top: 60px;
+ 	margin-bottom: 60px;
+ 	font-size: 18px;
+ 	font-weight: 300px;
+ }
+
+/* Formulario */
+ #search-form input, #search-form select {
+ 	background-color:#363636;
+ 	border-radius: 8px;
+ 	border-color: transparent;
+ 	padding: 30px 40px;
+ 	font-size: 18px;
+ 	margin: 0 10px;
+ }
+
+#search-form input[type=submit] {
+ 	background-color: #FF0000;
+ 	text-transform: uppercase;
+ 	color: #000000;
+ 	cursor: pointer;
+ 	transition: 0.5s;
+ }
+
+ #search-form input[type=submit]:hover {
+ 	background-color: #C0C0C0;
+ 	/*background-color: #000000;*/
+ }
